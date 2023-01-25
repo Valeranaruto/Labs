@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+protobuf = "==3.19.1"
+grpcio-tools = "==1.42.0"
+grpcio = "*"
+asyncio = "*"
+aiohttp = "*"
+ecdsa = "*"
+bech32 = "*"
+mnemonic = "*"
+hdwallets = "*"
+bip32 = "*"
+requests = "*"
+eip712_structs = "*"
+coincurve = "*"
+aiocron = "*"
+websockets = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
